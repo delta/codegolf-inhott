@@ -1,0 +1,1 @@
+from numpy import*;f=gcd.outer;print(sum(f(f(r:=range(1,int(input())+1),r),r)))
