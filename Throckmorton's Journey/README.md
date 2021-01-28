@@ -10,24 +10,22 @@ Find the minimum cost to do so. The supermarket has an endless supply of both ty
 
 ## Python
 
-    ```n,m,a,b=map(int,input().split())
+    n,m,a,b=map(int,input().split())
     print(min(n*a,-n//m*-b,n//m*b+n%m*a))
-    ```
 
 ## C++
 
-    ```#include<iostream>
+    #include<iostream>
     using namespace std;
 
     main(){
         int a,b,c,d; cin≫a≫b≫c≫d;
         cout<<min(a*c,a/b*d+min(d,a%b*c));
     }
-    ```
 
 ## Java
 
-    ```import java.util.*;
+    import java.util.*;
     public  class  MainClasses  {
         public  static  void main(String[] args)  {
     	    Scanner in =  new  Scanner(System.in);
@@ -35,12 +33,10 @@ Find the minimum cost to do so. The supermarket has an endless supply of both ty
     	    System.out.println(Math.min(n*a,(n/m)*b+Math.min((n%m)*a,b)));
     	}
     }
-    ```
 
 ## Javascript
 
-    ```X=readline().split(' ').map(Number)
+    X=readline().split(' ').map(Number)
     n=X[0],m=X[1],a=X[2],b=X[3]
     if (1/a > m/b) print(n*a)
     else print(Math.floor(n/m)*b + Math.min((n%m)*a,b))
-    ```

@@ -10,7 +10,7 @@ In a hurry to answer him, some employees get confused with their code. Your role
 
 ## Python
 
-    ```n,s=[int(i) for i in input().split()]
+    n,s=[int(i) for i in input().split()]
     s-=1
     n-=1
     d=0
@@ -37,11 +37,10 @@ In a hurry to answer him, some employees get confused with their code. Your role
     		d+=1
     		j+=1
     print(d)
-    ```
 
 ## C++
 
-    ```#include<bits/stdc++.h>
+    #include<bits/stdc++.h>
     using namespace std;
     const int maxn=200001;
     char s[maxn];
@@ -58,11 +57,10 @@ In a hurry to answer him, some employees get confused with their code. Your role
         }
         cout<<ans;
     }
-    ```
 
 ## Java
 
-    ```import java.io.*;
+    import java.io.*;
     import java.util.*;
 
     public class CF737C extends PrintWriter {
@@ -106,4 +104,3 @@ In a hurry to answer him, some employees get confused with their code. Your role
     		println(m);
     	}
     }
-    ```
