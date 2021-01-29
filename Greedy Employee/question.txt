@@ -1,0 +1,13 @@
+A restraunt has n tables arranged in a circular manner. The cleaner gets money based on the number of tables he cleans.
+He can move in either direction to reach the next table from the current one. He spends p minutes to move from one table to another.
+If all dishes have already been removed from a table, it takes him 1 minute to clean that table. If the dishes are still there then first he has to remove them which takes him another q minutes. He skips a table which he has already cleaned.
+The employer has given him r minutes to clean as many tables as he can. Help him make the maximum amount of money.
+
+Input Format:
+The first input line contains 4 positive integers n, p, q, r - number of tables, time taken to move between tables, time taken to remove dishes from a table, total time available to clean the tables.
+The second input line contains a string of length n made up to two alphabets d, a - dishes present on table, dishes not on table. The i-th alphabet in the string tells the status of dishes on the i-th table.
+
+Constraints: 1 ≤ n ≤ 5 x 10^5, 1 ≤ p ≤ 10^3, 1 ≤ q ≤ 10^3, 1 ≤ r ≤ 10^9
+
+Output Format:
+The output consists of a single which contains an integer which is the maximum number of tables that the cleaner can clean in the given time.
