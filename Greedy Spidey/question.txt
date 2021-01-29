@@ -1,0 +1,11 @@
+A spider is part of a research experiment and is trained to follow human instructions. It lives on a square web (web consists of square units). It is given a sequence of directions to follow and is allowed to make stops on the way.
+Suppose the spider starts at a0 and makes stops at a1, a2, a3, ..., an and in this order (an is the final destination). The path followed by the spider between the i-th and (i+1)-th stop should be the shortest path between these stops.
+The more is the number of stops made, the less is the final reward. Help the spider determine the least number of stops it has to make to get the maximum reward. (a1, a2, a3, ..., an are counted as stops)
+
+Input Format:
+The first input line contains a positive integer m, length of the direction sequence. The second input line is a string, which has m alphabets, each alphabet is among U, D, L and R corresponding to up, down, left and right respectively.
+
+Constraints: 1 ≤ m ≤ 2 x 10^5
+
+Output Format:
+The output should contain a single line containing a positive integer which is the minimum number of stops to be made by the spider.
